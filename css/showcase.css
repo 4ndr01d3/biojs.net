@@ -1,0 +1,71 @@
+.sprite {
+    background-image: url(../img/showcase/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-disp {
+    width: 130px;
+    height: 150px;
+    background-position: 0 0;
+}
+
+.sprite-disp2 {
+    width: 130px;
+    height: 150px;
+    background-position: -130px 0;
+}
+
+.sprite-expAtlas {
+    width: 130px;
+    height: 150px;
+    background-position: -260px 0;
+}
+
+.sprite-featViewer {
+    width: 130px;
+    height: 150px;
+    background-position: 0 -150px;
+}
+
+.sprite-hpasummary {
+    width: 130px;
+    height: 150px;
+    background-position: -130px -150px;
+}
+
+.sprite-intbundle {
+    width: 130px;
+    height: 150px;
+    background-position: -260px -150px;
+}
+
+.sprite-intd3 {
+    width: 130px;
+    height: 150px;
+    background-position: 0 -300px;
+}
+
+.sprite-kegg {
+    width: 130px;
+    height: 150px;
+    background-position: -130px -300px;
+}
+
+.sprite-protport {
+    width: 130px;
+    height: 150px;
+    background-position: -260px -300px;
+}
+
+.sprite-seq {
+    width: 130px;
+    height: 150px;
+    background-position: -390px 0;
+}
+
+.sprite-wigexp {
+    width: 130px;
+    height: 150px;
+    background-position: -390px -150px;
+}
