@@ -52,6 +52,17 @@ body{
     }
 }
 
+#heading-get-involved {
+    padding-top:20px;
+}
+#row-get-involved.row {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#row-get-involved img {
+    width: 80px;
+}
+
 .speedbuttons {
     padding-bottom: 20px;
 }

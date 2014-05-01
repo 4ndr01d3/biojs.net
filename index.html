@@ -183,10 +183,10 @@
 			<div class="col-md-3">
 				<h3>beautiful</h3>
 				You already did a great job - now we do our best to create the visibility your efforts deserve and give you an unique way to share your achievements.
-				</div>
+			</div>
 			<div class="col-md-3">
 				<h3>interactive	</h3>
-				Using state-of-the-art web technologies BioJS components enable a full-featured biological workbench directly in your browser. With our event-based approach it's easy for developers to integrate components in their application.
+				Using state-of-the-art web technologies BioJS enables a full-featured biological workbench directly in your browser. With our event-based approach it's easy for developers to integrate BioJS in their application.
 			</div>
 			<div class="col-md-3">
 				<h3>reusable</h3>
@@ -203,7 +203,7 @@
 				<a href="#" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Explore BioJS</a>
 			</div>
 			<div class="col-md-3">
-				<a href="#" class="btn btn-default btn-success btn-lg btn-block"><span class="glyphicon glyphicon-user"></span> Get involved</a>
+				<a href="#" class="btn btn-default btn-success btn-lg btn-block" id="btn-get-involved"><span class="glyphicon glyphicon-user"></span> Get involved</a>
 			</div>
 			<div class="col-md-3">
 				<a href="http://biojs.net/jenkins/target/registry" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Browse components</a>
@@ -399,9 +399,41 @@
 		</div>
 
 		<!-- end awesome bootstrap carousel -->
+		<h3 id="heading-get-involved">Get involved</h3>
+		<div class="row" id="row-get-involved">
+			<div class="col-md-3">
+				<a href="mailto:biojs@googlegroups.com" />
+					<img src="img/get-involved/mail.png" class="nice-image-box">
+				</a>
+				Feel free to write us.
+			</div>
+			<div class="col-md-3">
+				<a href="http://webchat.freenode.net/?channels=biojs" />
+					<img src="img/get-involved/irc.png" class="nice-image-box">
+				</a>
+				Join #biojs @ freenode 
+			</div>
 
+			<div class="col-md-3">
+				<a href="https://twitter.com/BiojsLibrary" />
+					<img src="img/get-involved/twitter.png" class="nice-image-box">
+				</a>
+				Follow us on Twitter 
+			</div>
+			<div class="col-md-3">
+				<a href="https://trello.com/b/SdfFvEIi/biojs-product-board" />
+					<img src="img/get-involved/plan.png" class="nice-image-box">
+				</a>
+				See our roadmap
+			</div>
 
-		<a href="https://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/" ><img style="width: 178px; height: 61px;" src="http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png" alt=""></a>
+		</div>
+
+		<div class="row" >
+			<div class="col-md-1">
+				<a href="https://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/" ><img style="width: 178px; height: 61px;" src="http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png" alt=""></a>
+			</div>
+		</div>
 
 	</div> <!-- /container -->
 
@@ -412,7 +444,17 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+	<script>
+$(document).ready(function (){
+		$("#btn-get-involved").click(function (){
+			//$(this).animate(function(){
+			$('html, body').animate({
+scrollTop: $("#heading-get-involved").offset().top
+}, 2000);
+//});
+			});
+		});
+	</script>
 	</body>
 	</html>
 
