@@ -59,8 +59,16 @@ body{
     padding-top: 10px;
     padding-bottom: 20px;
 }
+#row-get-involved.row .col-md-3 {
+    vertical-align:middle;
+    display:inline-block;
+}
 #row-get-involved img {
-    width: 80px;
+    width: 90px;
+}
+
+#row-get-involved a{
+    color: black;
 }
 
 #main-heading{
