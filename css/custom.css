@@ -38,7 +38,12 @@ body{
     background-repeat: no-repeat;
     background-position:center; 
 }
+
+/*  different viewports */
 @media(min-width:768px) {  
+    #main-heading{
+        margin-top: 5px;
+    }
     #github-ribbon {
         background-image: url(../img/ribbons/github_right_red.png);
         right: 0;
@@ -46,6 +51,10 @@ body{
 }
 
 @media(max-width:767px) {  
+    #main-heading{
+        margin-left: 39px;
+        margin-top: 5px;
+    }
     #github-ribbon {
         background-image: url(../img/ribbons/github_left_red.png);
         left: 0;
@@ -71,9 +80,7 @@ body{
     color: black;
 }
 
-#main-heading{
-    margin-top: 5px;
-}
+
 
 .speedbuttons {
     padding-bottom: 20px;
