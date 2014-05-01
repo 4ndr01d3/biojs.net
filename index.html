@@ -1,223 +1,355 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>BioJS - in build</title>
+<title>BioJS - in build</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Showcase CSS -->
-    <link href="css/showcase.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-      
-      
-
-    <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-        
-        
-        
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://localhost/biojs.net/">BioJS</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="http://groups.google.com/forum/#!forum/biojs">Contact</a></li> 
-              
-            <li><a href="http://biojs.net/jenkins/target/biojs">Download</a></li>
-            <li><a href="http://github.com/biojs/biojs">Source</a></li>
-            
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registry <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="http://www.ebi.ac.uk/Tools/biojs/registry/">Registry</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://biojs.net/jenkins/target/registry">Nightly Build</a></li>
-                </ul>
-            </li> 
-              
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="http://github.com/biojs/biojs/wiki/Documentation">Specification</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://biojs.net/jenkins/target/jsdoc/">JSDoc</a></li>
-                </ul>
-            </li>
-<li>
-	<a href='http://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/'><img src='http://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/badge/icon'></a>
-</li>
-<!--
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://github.com/biojs/biojs">Github</a></li>
-            <li><a href="http://www.ebi.ac.uk/Tools/biojs/registry/">Documentation</a></li>
-          </ul>-->
-        </div><!--/.nav-collapse -->
-      </div>
-        
-        <!-- Github ribbon -->
-        <a href="https://github.com/biojs/biojs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
-    </div>
-
-    
-
-    <div class="container">
-        
-        <!-- Main component for a primary marketing message or call to action -->
-        <!-- <div class="jumbotron">
-            <p>BioJS is a JavaScript library of graphical components to represent biological information. A library easy to maintain and develop by identifying minimal functional units that could be used as building blocks for more complex applications. A browser independent JavaScript library easy to integrate in web applications regardless the programming language used to develop the server side.</p>
-            <p>
-              <a class="btn btn-lg btn-primary" href="http://www.ebi.ac.uk/Tools/biojs/registry/" role="button">Visit stable registry &raquo;</a>
-        &nbsp;
-              <a style="float:right" class="btn btn-lg btn btn-danger" href="http://biojs.net/jenkins/target/registry/" role="button">Visit nightly registry &raquo;</a>
-            </p>
-        </div>-->
-        
-        <div class="row">
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.DasProteinFeatureViewer.html" class="effect7 thumbnail">
-                    <img class="showcase showcase-featViewer" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">Das Protein Feature Viewer</h4>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.HpaSummaryFeatures.html" class="thumbnail">
-                    <img class="showcase showcase-hpasummary" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">Hpa Summary Features</h4>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.InteractionsBundleD3.html" class="thumbnail">
-                    <img class="showcase showcase-intbundle" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">Interactions Bundle D3</h4>
-                    </div>
-                </a>
-            </div>
-            
-        </div>
-        
-        <div class="row">
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.InteractionsD3.html" class="thumbnail">
-                    <img class="showcase showcase-intd3" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">Interactions D3</h4>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.KEGGViewer.html" class="thumbnail">
-                    <img class="showcase showcase-kegg" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">KeggViewer</h4>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ProteinPortafolio.html" class="thumbnail">
-                    <img class="showcase showcase-protport" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">Protein Portafolio</h4>
-                    </div>
-                </a>
-            </div>
-            
-        </div>
-            
-        <div class="row">
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ChEMBLCompound.html" class="thumbnail">
-                    <img class="showcase showcase-disp" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">ChEMBLCompound</h4>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.Rheaction.html" class="thumbnail">
-                    <img class="showcase showcase-disp2" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">Rheaction</h4>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="showbox col-md-4">
-                <a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ExpressionAtlasBaselineSummary.html" class="thumbnail">
-                    <img class="showcase showcase-expAtlas" alt="">
-                    <div class="caption">
-                        <h4 style="text-align:center">Expression Atlas Baseline Summary</h4>
-                    </div>
-                </a>
-            </div>
-    
-        </div>
-
-    </div> <!-- /container -->
-
-<img style="width: 178px; height: 61px;" src="http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png" alt="">
+<!-- Showcase CSS -->
+<link href="css/showcase.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  </body>
-</html>
+<!-- Just for debugging purposes. Don't actually copy this line! -->
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+	  <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+
+
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+
+
+
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="http://localhost/biojs.net/">BioJS</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#">About</a></li>
+				<li><a href="http://groups.google.com/forum/#!forum/biojs">Contact</a></li> 
+
+				<li><a href="http://biojs.net/jenkins/target/biojs">Download</a></li>
+				<li><a href="http://github.com/biojs/biojs">Source</a></li>
+
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Registry <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="http://www.ebi.ac.uk/Tools/biojs/registry/">Registry</a></li>
+					<li class="divider"></li>
+					<li><a href="http://biojs.net/jenkins/target/registry">Nightly Build</a></li>
+				</ul>
+				</li> 
+
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="http://github.com/biojs/biojs/wiki/Documentation">Specification</a></li>
+					<li class="divider"></li>
+					<li><a href="http://biojs.net/jenkins/target/jsdoc/">JSDoc</a></li>
+				</ul>
+				</li>
+				<li>
+				<a href='http://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/'><img src='http://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/badge/icon'></a>
+				</li>
+				<!--
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Nav header</li>
+				<li><a href="#">Separated link</a></li>
+				<li><a href="#">One more separated link</a></li>
+			  </ul>
+			</li>
+
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="http://github.com/biojs/biojs">Github</a></li>
+			<li><a href="http://www.ebi.ac.uk/Tools/biojs/registry/">Documentation</a></li>
+		  </ul>-->
+			</div><!--/.nav-collapse -->
+		</div>
+
+		<!-- Github ribbon -->
+		<a href="https://github.com/biojs/biojs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+	</div>
+
+	<!-- awesome bootstrap carousel -->
+	<div id="main-carousel">
+		<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			<!-- Carousel items -->
+			<div class="carousel-inner">
+				<div class="active item">
+					<h2>an image</h2>
+					<div class="carousel-caption">
+						<h3>Presenting biological data</h3>
+						<p></p>
+					</div>
+				</div>
+				<div class="item">
+					<h2>an image</h2>
+					<div class="carousel-caption">
+						<h3>Reusable components</h3>
+						<p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+					</div>
+				</div>
+				<div class="item">
+					<h2>an image</h2>
+					<div class="carousel-caption">
+						<h3>modern, browser-independent JavaScript</h3>
+						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+					</div>
+				</div>
+			</div>
+			<!-- Carousel nav -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+
+	<!-- end awesome bootstrap carousel -->
+
+	<div class="container">
+
+		<!-- Main component for a primary marketing message or call to action -->
+		<!-- <div class="jumbotron">
+			<p>BioJS is a JavaScript library of graphical components to represent biological information. A library easy to maintain and develop by identifying minimal functional units that could be used as building blocks for more complex applications. A browser independent JavaScript library easy to integrate in web applications regardless the programming language used to develop the server side.</p>
+			<p>
+			  <a class="btn btn-lg btn-primary" href="http://www.ebi.ac.uk/Tools/biojs/registry/" role="button">Visit stable registry &raquo;</a>
+		&nbsp;
+			  <a style="float:right" class="btn btn-lg btn btn-danger" href="http://biojs.net/jenkins/target/registry/" role="button">Visit nightly registry &raquo;</a>
+			</p>
+		</div>-->
+
+		<div class="row">
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.DasProteinFeatureViewer.html" class="effect7 thumbnail">
+					<img class="showcase showcase-featViewer" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">Das Protein Feature Viewer</h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.HpaSummaryFeatures.html" class="thumbnail">
+					<img class="showcase showcase-hpasummary" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">Hpa Summary Features</h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.InteractionsBundleD3.html" class="thumbnail">
+					<img class="showcase showcase-intbundle" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">Interactions Bundle D3</h4>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.InteractionsD3.html" class="thumbnail">
+					<img class="showcase showcase-intd3" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">Interactions D3</h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.KEGGViewer.html" class="thumbnail">
+					<img class="showcase showcase-kegg" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">KeggViewer</h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ProteinPortafolio.html" class="thumbnail">
+					<img class="showcase showcase-protport" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">Protein Portafolio</h4>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ChEMBLCompound.html" class="thumbnail">
+					<img class="showcase showcase-disp" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">ChEMBLCompound</h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.Rheaction.html" class="thumbnail">
+					<img class="showcase showcase-disp2" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">Rheaction</h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="showbox col-md-4">
+				<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ExpressionAtlasBaselineSummary.html" class="thumbnail">
+					<img class="showcase showcase-expAtlas" alt="">
+					<div class="caption">
+						<h4 style="text-align:center">Expression Atlas Baseline Summary</h4>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		<h3> Contributors </h3>
+		<!-- awesome bootstrap carousel -->
+		<div id="usedby-carousel">
+			<div id="usedbyCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#usedbyCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#usedbyCarousel" data-slide-to="1"></li>
+					<li data-target="#usedby" data-slide-to="2"></li>
+				</ol>   
+				<!-- Carousel items -->
+				<div class="carousel-inner">
+					<div class="active item">
+						<div class="row used-by-row">
+
+							<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="https://www.ebi.ac.uk/" >
+									<div id="usedby-embl-ebi" class="usedby-img" > </div>
+								</a>
+							</div>
+							<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="http://www.tgac.ac.uk/" >
+									<div id="usedby-tgac" class="usedby-img" > </div>
+								</a>
+							</div>	<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="http://www.rostlab.org" >
+									<div id="usedby-rostlab" class="usedby-img" > </div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="row used-by-row">
+
+							<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="http://elifesciences.org/" >
+									<div id="usedby-elife" class="usedby-img" > </div>
+								</a>
+							</div>
+							<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="http://www.molgen.mpg.de/" >
+									<div id="usedby-mpimg" class="usedby-img" > </div>
+								</a>
+							</div>	
+							<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="http://www.lbl.gov/lsd/People_&_Organization/Scientific_Staff_Directory/Lewis_Lab.html" >
+									<div id="usedby-berkeley-lab" class="usedby-img" > </div>
+								</a>
+							</div>
+						</div>
+
+					</div> 
+					<div class="item">
+						<div class="row used-by-row">
+
+							<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="http://intermine.github.io/intermine.org/" >
+									<div id="usedby-intermine" class="usedby-img" > </div>
+								</a>
+							</div>
+							<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="http://www.biochem.mpg.de/en/" >
+									<div id="usedby-mpi-biochem" class="usedby-img" > </div>
+								</a>
+							</div>	<div class="usedby-box col-xs-6 col-md-4"> 
+								<a href="" >
+									<div id="usedby-todo" class="usedby-img" > </div>
+								</a>
+							</div>
+						</div>
+
+					</div> 
+
+				</div>
+				<!-- Carousel nav -->
+				<a class="carousel-control left" href="#usedbyCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="carousel-control right" href="#usedbyCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+
+		<!-- end awesome bootstrap carousel -->
+
+
+
+	</div> <!-- /container -->
+
+	<img style="width: 178px; height: 61px;" src="http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png" alt="">
+
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	</body>
+	</html>
 

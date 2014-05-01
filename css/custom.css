@@ -21,6 +21,116 @@ body{
     background-color: rgba(168, 168, 176, 0.75);
 }
 
+/*==================================================
+ * Carousel effects
+ * ===============================================*/
+
+.usedby-img {
+    background-repeat: no-repeat;
+    background-size:   contain; 
+    background-position:center; 
+    height: 80px;
+}
+
+.usedby-box{
+}
+
+.usedby-row {
+
+}
+
+#usedby-rostlab{
+    background-image: url(../img/usedby/rostlab.png);
+}
+
+#usedby-embl-ebi{
+    background-image: url(../img/usedby/embl-ebi.png);
+}
+
+#usedby-elife{
+    background-image: url(../img/usedby/elife.png);
+}
+
+#usedby-tgac{
+    background-image: url(../img/usedby/tgac.png);
+}
+
+#usedby-intermine{
+    background-image: url(../img/usedby/intermine.png);
+}
+
+#usedby-berkeley-lab{
+    background-image: url(../img/usedby/berkeley_lab.png);
+}
+
+#usedby-mpimg{
+    background-image: url(../img/usedby/mpimg.png);
+}
+
+#usedby-mpi-biochem{
+    background-image: url(../img/usedby/mpi_biochem.png);
+}
+
+
+#usedby-carousel .item {
+    text-align: center;
+}
+
+#usedby-carousel .carousel-inner{
+    color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#usedby-carousel  .carousel-control.right, #usedby-carousel  .carousel-control.left{
+    background: 0;
+}
+
+#usedby-carousel .carousel-indicators {
+    bottom: -35px;
+}
+
+#usedby-carousel .carousel-control {
+    width: 8%;
+}
+
+#usedby-carousel .carousel-indicators  li {
+    border: 1px solid grey;
+}
+
+#usedby-carousel .carousel-indicators  .active {
+    background-color: grey;
+}
+
+#usedby-carousel .glyphicon-chevron-left, #usedby-carousel .carousel-control .glyphicon-chevron-right {
+    color: grey;
+}
+
+#main-carousel .item{
+    text-align: center;
+    height: 220px !important;
+}
+#main-carousel .carousel-inner{
+    background: #333;    
+}
+#main-carousel .carousel{
+    margin-top: 20px;
+}
+#main-carousel .carousel h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 20px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+#main-carousel{
+    margin-bottom: 20px;
+}
+
+#main-carousel .carousel-indicators {
+    bottom: 0px;
+}
 
 
 /*==================================================
