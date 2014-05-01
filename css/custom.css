@@ -63,6 +63,10 @@ body{
     width: 80px;
 }
 
+#main-heading{
+    margin-top: 5px;
+}
+
 .speedbuttons {
     padding-bottom: 20px;
 }
