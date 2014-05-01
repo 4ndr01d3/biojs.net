@@ -21,6 +21,14 @@ body{
     background-color: rgba(168, 168, 176, 0.75);
 }
 
+#showcase-container .row{
+    padding-bottom: 10px;
+}
+
+#qkeywords {
+    padding-bottom: 15px;
+}
+
 #github-ribbon {
     position: absolute;
     top: 0;
@@ -48,6 +56,9 @@ body{
     padding-bottom: 20px;
 }
 
+.speedbuttons .col-md-3{
+    padding-bottom: 10px;
+}
 
 /*==================================================
  * Carousel effects
