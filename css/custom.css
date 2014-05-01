@@ -21,6 +21,30 @@ body{
     background-color: rgba(168, 168, 176, 0.75);
 }
 
+#github-ribbon {
+    position: absolute;
+    top: 0;
+    border: 0;
+    height: 149px;
+    width: 149px;
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+@media(min-width:768px) {  
+    #github-ribbon {
+        background-image: url(../img/ribbons/github_right_red.png);
+        right: 0;
+    }
+}
+
+@media(max-width:767px) {  
+    #github-ribbon {
+        background-image: url(../img/ribbons/github_left_red.png);
+        left: 0;
+    }
+}
+
+
 /*==================================================
  * Carousel effects
  * ===============================================*/
