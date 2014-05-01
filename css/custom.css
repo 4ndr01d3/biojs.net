@@ -44,6 +44,10 @@ body{
     }
 }
 
+.speedbuttons {
+    padding-bottom: 20px;
+}
+
 
 /*==================================================
  * Carousel effects

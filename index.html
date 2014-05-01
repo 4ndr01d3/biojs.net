@@ -51,11 +51,26 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li><a href="#">About</a></li>
-				<li><a href="http://groups.google.com/forum/#!forum/biojs">Contact</a></li> 
 
-				<li><a href="http://biojs.net/jenkins/target/biojs">Download</a></li>
-				<li><a href="http://github.com/biojs/biojs">Source</a></li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="http://groups.google.com/forum/#!forum/biojs">Contact</a></li> 
+					<li class="divider"></li>
+					<li><a href="https://github.com/biojs/biojs/issues/new">Submit an issue</a></li>
+				</ul>
+				</li> 
 
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contribute<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="http://github.com/biojs/biojs">Source</a></li>
+					<li class="divider"></li>
+					<li><a href="https://trello.com/b/SdfFvEIi/biojs-product-board">Roadmap</a></li>
+					<li class="divider"></li>
+					<li><a href="https://github.com/biojs/biojs/issues?state=open">Fix a bug</a></li>
+				</ul>
+				</li> 
 				<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Registry <b class="caret"></b></a>
 				<ul class="dropdown-menu">
@@ -150,6 +165,23 @@
 
 	<!-- end awesome bootstrap carousel -->
 
+	<div class="container">
+
+		<div class="row speedbuttons">
+			<div class="col-md-3">
+				<a href="http://biojs.net/jenkins/target/biojs" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Explore BioJS</a>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="btn btn-default btn-success btn-lg btn-block"><span class="glyphicon glyphicon-user"></span> Get involved</a>
+			</div>
+			<div class="col-md-3">
+				<a href="http://biojs.net/jenkins/target/registry" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Browse components</a>
+			</div>
+		</div>
+	</div>
 	<div class="container">
 
 		<!-- Main component for a primary marketing message or call to action -->
