@@ -74,8 +74,8 @@
 		<!-- HPA viewer -->
 		<script language="JavaScript" type="text/javascript" src="js/Biojs.HpaSummaryFeature.js"></script>
 		<script language="JavaScript" type="text/javascript" src="js/Biojs.HpaSummaryFeatures.js"></script>
-		<link href="../biojs/css/Biojs.HpaSummaryFeatures.css" rel="stylesheet" type="text/css" />
-		<link href="../biojs/css/Biojs.HpaSummaryFeature.css" rel="stylesheet" type="text/css">
+		<link href="css/Biojs.HpaSummaryFeatures.css" rel="stylesheet" type="text/css" />
+		<link href="css/Biojs.HpaSummaryFeature.css" rel="stylesheet" type="text/css">
 		
 		<!-- Protein Interactions -->
 		<script language="JavaScript" type="text/javascript" src="js/Biojs.InteractionsD3.js"></script>
@@ -102,11 +102,13 @@
 					  target: 'hpa_div',
 					  hpaDasUrl: 'http://das.proteinatlas.org/das/proteinatlas/features?segment=A1KZ92',
 					  width: '585px',
-					  imageWidth: '150px'
+					  imageWidth: '150px',
+					  proxyUrl: "../dependencies/proxy/proxy.php"
 				});
 				var myPainter = new Biojs.DasProteinFeatureViewer({
 				   target: "das_div",
-				   segment: "A1KZ92"
+				   segment: "A1KZ92",
+				   proxyUrl: "../dependencies/proxy/proxy.php"
 				}); 
 				var interactions = new Biojs.InteractionsD3({
 					target: "interactions",
