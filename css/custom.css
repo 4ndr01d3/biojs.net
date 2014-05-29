@@ -61,16 +61,20 @@ body{
 #heading-get-involved {
     padding-top:20px;
 }
-#row-get-involved.row {
+#row-get-involved {
     padding-top: 10px;
     padding-bottom: 20px;
-}
-#row-get-involved.row .col-md-3 {
     vertical-align:middle;
-    display:inline-block;
+    text-align:center;
+    display: block;
 }
 #row-get-involved img {
-    width: 90px;
+    height: 90px;
+    clear: both;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #row-get-involved a{
