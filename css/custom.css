@@ -117,6 +117,16 @@ body{
     text-decoration: none;
 }
 
+#services-appear-here a {
+    text-decoration: none;
+    color: black;
+}
+
+#services-appear-here {
+    float: right;
+    font-size: 10px;
+}
+
 .privacy-policy {
     text-align:center;
 }
