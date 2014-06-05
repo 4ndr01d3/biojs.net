@@ -193,6 +193,9 @@ body{
     background-image: url(../img/usedby/mpi_biochem.png);
 }
 
+#usedby-cath-ucl {
+    background-image: url(../img/usedby/ucl_logo_standalone.png);
+}
 
 #usedby-carousel .item {
     text-align: center;
