@@ -112,6 +112,16 @@ body{
     font-family: 'Chelsea Market', cursive;
 }
 
+#sites-using-biojs5 {
+    font-size: 34px;
+    font-family: 'Tahoma', cursive;
+}
+
+#sites-using-biojs6 {
+    font-size: 34px;
+    font-family: 'Arial', cursive;
+}
+
 
 .sites-using-biojs a:hover{ 
     text-decoration: none;
