@@ -13,9 +13,6 @@ body{
     border: 0px;
 }
 
-.thumbnail .showcase{
-    padding: 4px;
-}
 
 .showbox div {
     background-color: rgba(168, 168, 176, 0.75);
@@ -64,16 +61,20 @@ body{
 #heading-get-involved {
     padding-top:20px;
 }
-#row-get-involved.row {
+#row-get-involved {
     padding-top: 10px;
     padding-bottom: 20px;
-}
-#row-get-involved.row .col-md-3 {
     vertical-align:middle;
-    display:inline-block;
+    text-align:center;
+    display: block;
 }
 #row-get-involved img {
-    width: 90px;
+    height: 90px;
+    clear: both;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #row-get-involved a{
@@ -81,6 +82,68 @@ body{
 }
 
 
+.sites-using-biojs a{ 
+    color: grey;
+}
+
+.sites-using-biojs div{ 
+    text-align:center;
+    vertical-align: bottom;
+    margin: 0 auto;
+}
+
+#sites-using-biojs1 {
+    font-size: 38px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#sites-using-biojs2 {
+    font-size: 34px;
+    font-family: 'Poiret One', cursive;
+}
+
+#sites-using-biojs3 {
+    font-size: 34px;
+    font-family: 'Lora', serif;
+}
+
+#sites-using-biojs4 {
+    font-size: 34px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+#sites-using-biojs5 {
+    font-size: 34px;
+    font-family: 'Tahoma', cursive;
+}
+
+#sites-using-biojs6 {
+    font-size: 34px;
+    font-family: 'Arial', cursive;
+}
+
+
+.sites-using-biojs a:hover{ 
+    text-decoration: none;
+}
+
+#services-appear-here a {
+    text-decoration: none;
+    color: black;
+}
+
+#services-appear-here {
+    float: right;
+    font-size: 10px;
+}
+
+.privacy-policy {
+    text-align:center;
+}
+#privacy-notice-less {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .speedbuttons {
     padding-bottom: 20px;
@@ -140,6 +203,9 @@ body{
     background-image: url(../img/usedby/mpi_biochem.png);
 }
 
+#usedby-cath-ucl {
+    background-image: url(../img/usedby/ucl_logo_standalone.png);
+}
 
 #usedby-carousel .item {
     text-align: center;
